@@ -1,0 +1,10 @@
+@import "general";
+
+$b: '.rh-review-heading';
+
+.rtl .rh-review-heading {
+	#{$b}__position {
+		margin-right: 0 !important;
+		margin-left: 15px;
+	}
+}

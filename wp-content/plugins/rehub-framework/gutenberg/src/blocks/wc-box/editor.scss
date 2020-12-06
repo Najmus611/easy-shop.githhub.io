@@ -1,0 +1,89 @@
+@import "common";
+@import "styles/content";
+@import "styles/image";
+@import "styles/title";
+@import "styles/content-desc";
+@import "styles/price";
+@import "styles/cta";
+@import "styles/coupon";
+@import "styles/expire";
+@import "styles/brands";
+@import "styles/actions";
+@import "styles/wish";
+@import "styles/compare";
+@import "styles/wc-attributes-table";
+@import "styles/tabs";
+@import "styles/gallery";
+@import "styles/videos";
+
+.wp-block .c-ws-box {
+	position: relative;
+	padding: 18px 16px;
+
+	border: 1px solid $greyD;
+	box-shadow: 0 0 20px #F0F0F0;
+	background: $white;
+	clear: both;
+	overflow: hidden;
+
+	.c-ws-box__wrapper {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		grid-template-rows: auto 1fr;
+		grid-column-gap: 15px;
+		column-gap: 15px;
+	}
+
+	.components-spinner {
+		display: none;
+	}
+
+	&.c-ws-box--loading {
+		&:before {
+			content: '';
+			position: absolute;
+			background: #edeff0;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: .5;
+			z-index: 2;
+		}
+
+		.components-spinner {
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 3;
+		}
+	}
+
+	&.c-ws-box--expired {
+		filter: grayscale(100%);
+		opacity: 0.8;
+
+		.c-ws-box-image {
+			position: relative;
+
+			&:after {
+				content: "\f273";
+				position: absolute;
+				top: 10px;
+				right: 10px;
+
+				font-size: 24px;
+				font-family: rhicons;
+				color: #FF0000;
+			}
+		}
+	}
+}
+
+
+
+
+
+

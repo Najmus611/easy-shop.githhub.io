@@ -1,0 +1,65 @@
+@import "common";
+
+$b: '.c-review-box';
+
+.wp-block .c-review-box {
+	.review-criteria {
+		margin-top: 20px;
+		padding: 40px 0 0 0;
+
+		border-top: 1px dashed $grey;
+		border-bottom: 1px dashed $grey;
+		transition: 0.4s linear;
+		transition-property: width, background-color;
+	}
+
+	.rate-bar {
+		position: relative;
+		display: block;
+		width: 100%;
+		margin-bottom: 34px;
+
+		background: $greyD;
+		height: 14px;
+		transition: 0.4s linear;
+		transition-property: width, background-color;
+		border-radius: 5px;
+	}
+
+	.rate-bar-title {
+		position: absolute;
+		top: -21px;
+		left: 0;
+		font-size: 14px;
+
+		span {
+			display: block;
+			min-width: 140px;
+			height: 18px;
+			line-height: 18px;
+		}
+
+		span[data-rich-text-placeholder] {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	.rate-bar-bar {
+		width: 0;
+		height: 14px;
+		background: $brandRed;
+		border-radius: 5px;
+	}
+
+	.rate-bar-percent {
+		position: absolute;
+		top: -21px;
+		right: 0;
+		height: 18px;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 18px;
+	}
+}

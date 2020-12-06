@@ -1,0 +1,41 @@
+@import "common";
+
+.rh-review-heading {
+	&__logo-container {
+		height: 60px;
+		position: relative;
+		width: 150px;
+	}
+
+	.rehub-image-upload-placeholder {
+		background: {
+			repeat: no-repeat;
+			size: contain;
+			position: top center;
+		};
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+
+		svg {
+			left: 50%;
+			position: absolute;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+
+	.rehub-image-upload-has-image .rehub-image-upload-remove {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+
+		svg {
+			height: 20px;
+			width: auto;
+		}
+	}
+}

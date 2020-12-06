@@ -1,0 +1,63 @@
+@import "general";
+
+.wp-block-rehub-pretty-list.wpsm_pretty_list {
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+// Default list
+.wpsm_pretty_list {
+	li {
+		border-radius: 100px;
+		padding: 10px 20px 10px 28px;
+		position: relative;
+		transition: all 0.2s ease;
+
+		&:before {
+			bottom: 0;
+			font-family: rhicons;
+			height: 15px;
+			left: 0;
+			line-height: 1;
+			margin: auto;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 15px;
+		}
+	}
+}
+
+// Arrow list
+.wpsm_arrowlist {
+	li:before {
+		content: "\f105";
+		color: orange;
+	}
+}
+
+// Check list
+.wpsm_checklist {
+	li:before {
+		color: $defaultGreen;
+		content: "\f00c";
+	}
+}
+
+// Star list
+.wpsm_starlist {
+	li:before {
+		content: "\e9d9";
+		color: orange;
+	}
+}
+
+// Buller list
+.wpsm_bulletlist {
+	li:before {
+		content: "\f192";
+	}
+}

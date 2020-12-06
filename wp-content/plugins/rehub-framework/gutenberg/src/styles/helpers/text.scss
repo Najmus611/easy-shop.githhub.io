@@ -1,0 +1,59 @@
+@import "../variables";
+
+.text-center {
+	text-align: center;
+}
+
+.text-right-align {
+	text-align: right;
+}
+
+.text-left-align {
+	text-align: left;
+}
+
+.lineheight20 {
+	line-height: 20px;
+}
+
+.rehub-main-color {
+	color: $violet;
+}
+
+.lightgreycolor {
+	color: lightgrey;
+}
+
+.blackcolor {
+	color: $dark;
+}
+
+.greycolor {
+	color: grey;
+}
+
+.fontbold {
+	font-weight: bold;
+}
+
+.block-editor {
+	.font130 {
+		font-size: 130%;
+	}
+
+	.font150 {
+		font-size: 150%;
+	}
+
+	.font200 {
+		font-size: 200%;
+	}
+
+	.font250 {
+		font-size: 250%;
+	}
+}
+
+.lineheight20 {
+	line-height: 20px;
+}

@@ -1,0 +1,58 @@
+@import "common";
+
+$b: '.c-offer-listing';
+
+.wp-block .c-offer-listing {
+	position: relative;
+
+	#{$b}__title {
+		margin: 0 0 10px;
+		color: $dark;
+		font-size: 120%;
+		font-weight: 700;
+		line-height: 28px;
+	}
+
+	#{$b}__copy {
+		line-height: 20px;
+		font-size: 15px;
+	}
+
+	#{$b}__read-more {
+		display: block;
+		color: $violet;
+		font-size: 85%;
+		cursor: pointer;
+	}
+
+	.components-spinner {
+		display: none;
+	}
+
+	&.c-offer-listing--loading {
+		&:before {
+			content: '';
+			position: absolute;
+			background: #edeff0;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: .5;
+			z-index: 2;
+		}
+
+		.components-spinner {
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 3;
+		}
+	}
+
+	.rehub_offer_coupon {
+		display: block;
+	}
+}

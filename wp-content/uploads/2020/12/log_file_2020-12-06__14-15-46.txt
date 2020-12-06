@@ -1,0 +1,52 @@
+
+---Downloaded files---
+The import files for: ReCompare were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost
+Data file = D:\xampp\htdocs/wp-content/uploads/2020/12/demo-content-import-file_2020-12-06__14-15-46.xml
+Widget file = D:\xampp\htdocs/wp-content/uploads/2020/12/demo-widgets-import-file_2020-12-06__14-15-46.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+---Importing widgets---
+Sidebar Area : 
+
+ReHub: Top Offers/Products - Most popular this month - Widget already exists
+ReHub: Related Reviews - Related reviews - Widget already exists
+
+Footer 1 : 
+
+Text - About Us - Widget already exists
+ReHub: Social icons - No Title - Widget already exists
+
+Footer 2 : 
+
+Text - No Title - Widget already exists
+
+Footer 3 : 
+
+Text - Sign Up for Weekly Newsletter - Widget already exists
+Custom HTML - No Title - Widget already exists
+
+Woocommerce shop sidebar : 
+
+Filter Products by Price - Filter by price - Widget already exists
+Filter Products by Attribute - Camera - Widget already exists
+Filter Products by Attribute - Flight Time - Widget already exists
+Filter Products by Attribute - Brand - Widget already exists
+Filter Products by Rating - Average rating - Widget already exists
+
+Woocommerce product sidebar : 
+
+ReHub: Latest Woo Comparisons - Latest Comparisons - Widget already exists
+ReHub: Top Offers/Products - Top offers - Widget already exists
+
+
+
+---pt-ocdi/after_import---
+Theme Options was updated-------Customizer was updated-------Menu was assigned-------Menu hierarchy was fixed-------Menu hierarchy was fixed-------Menu hierarchy was fixed-------HomePage was assigned-------Blog page was assigned-------

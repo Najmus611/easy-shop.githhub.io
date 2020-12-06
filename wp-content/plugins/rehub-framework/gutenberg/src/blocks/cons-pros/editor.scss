@@ -1,0 +1,11 @@
+@import "common";
+
+.cons-pros-block {
+	padding: 18px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, .08);
+	overflow: hidden;
+
+	@include breakpoints(s) {
+		padding: 30px;
+	}
+}

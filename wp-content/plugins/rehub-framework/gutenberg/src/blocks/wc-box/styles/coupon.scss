@@ -1,0 +1,44 @@
+@import "common";
+
+.c-ws-box-coupon {
+	position: relative;
+	margin: 10px 15px 0 0;
+	padding: 0.65em 1.1em;
+
+	vertical-align: top;
+	cursor: pointer;
+	border: 1px dashed green;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 13px;
+	clear: both;
+	line-height: 18px;
+	background-color: rgb(233, 255, 221);
+	color: green;
+
+	&:hover {
+		border: 1px dashed $darkRedSecond;
+
+		i {
+			color: $darkRedSecond;
+		}
+	}
+
+	i {
+		position: absolute;
+		top: 50%;
+		right: -12px;
+		margin-top: -9px;
+
+		font-size: 18px;
+		line-height: 18px;
+		color: $dark;
+	}
+
+	&__text {
+		width: 100%;
+		background: none transparent;
+		border: none;
+		text-align: center;
+	}
+}

@@ -1,0 +1,105 @@
+.rehub_offer_coupon {
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	padding: 0.65em 1.1em;
+	border: 1px dashed green;
+	text-align: center;
+	position: relative;
+	font-size: 13px;
+	clear: both;
+	line-height: 18px;
+	background-color: rgb(233, 255, 221);
+	color: green;
+	border-radius: 4px;
+
+	&:hover {
+		border: 1px dashed $darkRedSecond;
+
+		i {
+			color: $darkRedSecond;
+		}
+	}
+
+	i {
+		position: absolute;
+		top: 50%;
+		right: -12px;
+		font-size: 18px;
+		line-height: 18px;
+		margin-top: -9px;
+		color: $dark;
+	}
+
+	span {
+		width: 100%;
+		background: none transparent;
+		border: none;
+		text-align: center;
+	}
+
+	&.btn_offer_block {
+		i {
+			display: none;
+		}
+
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+
+	&.masked_coupon {
+		i {
+			font-weight: normal;
+			font-size: 12px;
+			color: #fb7203;
+			padding-left: 6px;
+			position: static;
+			margin: 0;
+			line-height: 14px;
+		}
+
+		&:hover {
+			border: none;
+		}
+	}
+}
+
+.not_masked_coupon:not(.expired_coupon) {
+	margin-right: 15px;
+}
+
+.coupon_btn {
+	&:before {
+		border: 1px dashed white;
+		border-left: none;
+		border-bottom: none;
+		width: 16px;
+		height: 100%;
+		transition: all 0.3s ease;
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+		background-image: linear-gradient(67deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 50%, rgb(166, 183, 157) 51%, rgb(233, 255, 221) 66%) !important;
+	}
+
+	&:hover:before {
+		width: 25px;
+	}
+}
+
+.rehub_offer_coupon.expired_coupon {
+	border: 1px dashed $greyD;
+	background: $greyf4;
+	color: grey;
+
+	span {
+		text-decoration: line-through;
+	}
+
+	i {
+		display: none;
+	}
+}

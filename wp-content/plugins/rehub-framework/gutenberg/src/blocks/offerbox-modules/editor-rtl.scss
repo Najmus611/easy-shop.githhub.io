@@ -1,0 +1,18 @@
+@import "general";
+
+$b: '.c-offer-box';
+
+.rtl .wp-block .c-offer-box {
+	#{$b}__price {
+		clear: both;
+
+		span:not(.retail-old) {
+			float: right;
+			margin-left: 5px;
+		}
+
+		.retail-old {
+			margin-left: 0;
+		}
+	}
+}

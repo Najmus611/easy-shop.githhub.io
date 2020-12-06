@@ -1,0 +1,45 @@
+@import "common";
+
+.wp-block .c-ws-box-tabs {
+	z-index: 100;
+	position: relative;
+	margin: 0 0 0 0;
+	padding: 0;
+	list-style: none;
+
+	@include breakpoints(s) {
+		margin: 0 0 -1px 0;
+	}
+
+	li {
+		display: inline-block;
+
+		margin-bottom: 4px;
+		padding: 7px 18px;
+
+		list-style: none;
+		border: 1px solid $greyCE;
+		cursor: pointer;
+
+		@include breakpoints(s) {
+			margin: 0;
+			border: none;
+		}
+
+		&.current {
+			border-top: 2px solid $violet;
+			border-bottom: 1px solid $greyCE;
+			background-color: $dark;
+			color: $white;
+			font-weight: bold;
+
+			@include breakpoints(s) {
+				border: 1px solid $greyCE;
+				border-top: 2px solid $violet;
+				border-bottom: 1px solid #fff;
+				background: none #fff;
+				color: $darkGrey;
+			}
+		}
+	}
+}

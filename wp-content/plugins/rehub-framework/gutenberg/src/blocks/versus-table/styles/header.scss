@@ -1,0 +1,16 @@
+@import "common";
+
+.wp-block .c-vs-header {
+	display: block;
+	width: 100%;
+	margin: 6px 5px 12px 5px;
+
+	text-align: center;
+	vertical-align: middle;
+
+	@include breakpoints(s) {
+		width: 40%;
+		display: table-cell;
+		text-align: left;
+	}
+}

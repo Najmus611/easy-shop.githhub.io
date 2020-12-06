@@ -1,0 +1,13 @@
+@import "common";
+
+.wp-block .c-offer-listing-cta {
+	padding: 15px 20px;
+	width: 100%;
+
+	text-align: center;
+
+	@include breakpoints(s) {
+		min-width: 200px;
+		max-width: 200px;
+	}
+}

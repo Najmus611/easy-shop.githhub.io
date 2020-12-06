@@ -1,0 +1,7 @@
+@import "general";
+
+.block-editor-block-inspector .react-select {
+	div input[autocomplete]:focus {
+		box-shadow: none;
+	}
+}

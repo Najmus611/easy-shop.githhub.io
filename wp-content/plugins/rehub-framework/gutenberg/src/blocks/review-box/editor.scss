@@ -1,0 +1,65 @@
+@import "common";
+@import "styles/criteria";
+
+$b: '.c-review-box';
+
+.wp-block .c-review-box {
+	padding: 18px;
+	margin-bottom: 25px;
+
+	box-shadow: 0 2px 20px rgba(0, 0, 0, .08);
+	overflow: hidden;
+
+	@include breakpoints(s) {
+		padding: 30px;
+	}
+
+	.review-top {
+		overflow: hidden;
+		float: none;
+		width: 100%;
+	}
+
+	.overall-score {
+		width: 100px;
+		margin: 0 20px 10px 0;
+		float: left;
+
+		background: $brandRed;
+		text-align: center;
+	}
+
+	.overall {
+		display: block;
+		padding: 8px 0;
+
+		font-size: 52px;
+		line-height: 1;
+		color: $white;
+	}
+
+	.overall-text {
+		display: block;
+		padding: 6px 0;
+
+		font-weight: 700;
+		font-size: 11px;
+		text-transform: uppercase;
+		background: $black;
+		color: $white;
+	}
+
+	.review-header {
+		display: block;
+		margin-bottom: 9px;
+
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 32px;
+		color: $black;
+	}
+
+	.review-text p {
+		margin: 0;
+	}
+}

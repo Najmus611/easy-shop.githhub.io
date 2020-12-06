@@ -1,0 +1,68 @@
+@import "common";
+
+.rehub-icon-popover {
+	&__button-wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__icon-button {
+		height: auto;
+		padding: 8px;
+		margin-right: auto;
+	}
+
+	&__list {
+		overflow: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: flex-start;
+		align-items: flex-start;
+		height: 200px;
+		margin-top: 5px;
+	}
+
+	&__icon {
+		display: inline-flex;
+		margin: 0;
+		padding: 5px;
+		height: auto;
+
+		text-decoration: none;
+		font-size: 13px;
+		border: 0;
+		cursor: pointer;
+		-webkit-appearance: none;
+		background: none;
+		transition: box-shadow .1s linear;
+		box-shadow: none;
+		outline: 0;
+
+		&:hover {
+			color: $violet;
+		}
+
+		i {
+			font-size: 22px;
+		}
+	}
+
+	&__label-container {
+		display: flex;
+		align-items: center;
+		margin-bottom: 8px;
+	}
+
+	&__input {
+		flex: 1;
+
+		.components-base-control__field {
+			margin: 0;
+		}
+	}
+
+	&__reset {
+		margin-left: 8px;
+	}
+}

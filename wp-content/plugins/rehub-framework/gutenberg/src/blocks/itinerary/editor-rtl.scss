@@ -1,0 +1,10 @@
+@import "general";
+
+.rtl .wpsm-itinerary-content {
+	padding: 0 15px 35px 0;
+}
+
+.rtl .wpsm-itinerary-icon:after {
+	left: auto;
+	right: 15px;
+}

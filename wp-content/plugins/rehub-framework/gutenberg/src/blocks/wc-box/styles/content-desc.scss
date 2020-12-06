@@ -1,0 +1,15 @@
+@import "common";
+
+.wp-block .c-ws-box-content-desc {
+	grid-column: 1 / 4;
+	grid-row: 2;
+	margin-top: 15px;
+
+	font-size: 80%;
+	line-height: 15px;
+
+	@include breakpoints(s) {
+		margin-top: 0;
+		grid-column: 2 / 4;
+	}
+}

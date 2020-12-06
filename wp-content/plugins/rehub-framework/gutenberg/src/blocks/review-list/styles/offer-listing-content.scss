@@ -1,0 +1,12 @@
+@import "common";
+
+.wp-block .c-offer-listing-content {
+	flex-grow: 1;
+	flex-basis: 0;
+	width: 100%;
+	padding: 15px 20px;
+
+	@include breakpoints(s) {
+		border-right: 1px solid $greyE;
+	}
+}

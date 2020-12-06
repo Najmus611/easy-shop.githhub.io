@@ -1,0 +1,26 @@
+@import "common";
+
+.wp-block .c-offer-listing-item {
+	width: 100%;
+	margin-top: 20px;
+
+	@include breakpoints(s) {
+		margin-top: 0;
+	}
+
+	&:first-of-type {
+		margin-top: 0;
+	}
+
+	.c-offer-listing-item__wrapper {
+		border: 1px solid $greyED;
+		box-shadow: 0 5px 23px rgba(188, 207, 219, 0.35);
+		background: $white;
+
+		@include breakpoints(s) {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+}

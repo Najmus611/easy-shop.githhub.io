@@ -1,0 +1,39 @@
+@import "common";
+
+.c-ws-box-price {
+	margin: 0 10px 10px 0;
+	float: left;
+	line-height: 20px;
+	font-weight: bold;
+
+	div {
+		display: inline;
+	}
+
+	del {
+		margin-right: 5px;
+		font-size: 85%;
+		opacity: 0.3;
+		color: $dark;
+		font-weight: normal;
+	}
+
+	ins {
+		color: $violet;
+		text-decoration: none;
+	}
+
+	&__label {
+		float: left;
+		display: inline-block;
+		margin: 0 5px 5px 0;
+		padding: 3px 6px;
+
+		background-color: $dark;
+		color: $white;
+		line-height: 12px;
+		text-decoration: none;
+		white-space: nowrap;
+		font-size: 11px;
+	}
+}

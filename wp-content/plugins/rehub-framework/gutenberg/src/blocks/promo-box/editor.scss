@@ -1,0 +1,42 @@
+@import "general";
+
+.wp-block-rehub-promo-box.wpsm_promobox {
+	background: none repeat scroll 0 0 $greyf8;
+	clear: both;
+	color: $darkGrey;
+	margin: 15px 0;
+	overflow: auto;
+	padding: 15px 25px 70px 25px;
+	position: relative;
+	border: 1px solid transparent;
+
+	@include breakpoints(xs) {
+		padding: 15px 25px;
+	}
+
+	.title_promobox {
+		font-size: 18px;
+		line-height: 20px;
+		margin: 0 0 7px;
+	}
+
+	p {
+		font-size: 14px;
+		margin: 10px 0;
+	}
+
+	.rehub_main_btn {
+		bottom: 15px;
+		left: 25px;
+		margin: 0 0 10px 0;
+		position: absolute;
+
+		@include breakpoints(xs) {
+			bottom: auto;
+			float: right;
+			left: auto;
+			margin: 8px 0 15px 15px;
+			position: static;
+		}
+	}
+}

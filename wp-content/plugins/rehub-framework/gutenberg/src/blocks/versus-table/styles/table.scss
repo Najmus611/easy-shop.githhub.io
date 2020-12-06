@@ -1,0 +1,14 @@
+@import "common";
+
+.wp-block .c-vs-table {
+	display: block;
+	padding: 5px;
+
+	border-radius: 5px;
+	color: $darkGrey;
+
+	@include breakpoints(s) {
+		display: table;
+		width: 100%;
+	}
+}

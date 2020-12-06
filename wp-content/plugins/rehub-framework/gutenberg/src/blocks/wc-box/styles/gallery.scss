@@ -1,0 +1,11 @@
+.c-ws-box-gallery {
+	&__item {
+		display: inline-block;
+		padding: 0 5px;
+
+		img {
+			width: auto;
+			height: 60px;
+		}
+	}
+}

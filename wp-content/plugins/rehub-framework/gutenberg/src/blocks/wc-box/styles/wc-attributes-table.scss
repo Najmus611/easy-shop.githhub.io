@@ -1,0 +1,39 @@
+table.shop_attributes {
+	border: 1px dotted rgba(0, 0, 0, 0.1);
+	font-size: 90%;
+	margin: 1.618em auto;
+	width: 100%;
+}
+
+table.shop_attributes th {
+	border-right: 1px dotted rgba(0, 0, 0, 0.1);
+	background-color: transparent;
+	vertical-align: middle;
+	text-align: right;
+	width: 35%;
+	font-weight: bold;
+	padding: 8px 20px;
+	border-top: 0;
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+	margin: 0;
+	line-height: 1;
+}
+
+table.shop_attributes td {
+	padding: 8px 10px;
+	border-top: 0;
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+	margin: 0;
+	line-height: 1;
+}
+
+table.shop_attributes td p {
+	margin: 0;
+	padding: 0;
+}
+
+table.shop_attributes tr:last-child {
+	th, td {
+		border-bottom: none;
+	}
+}

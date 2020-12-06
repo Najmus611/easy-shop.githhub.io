@@ -1,0 +1,20 @@
+@import "general";
+
+$b: '.c-review-box';
+
+.rtl .wp-block .c-review-box {
+	.overall-score {
+		float: right;
+		margin: 0 0 10px 20px;
+	}
+
+	.rate-bar-title {
+		left: auto;
+		right: 0;
+	}
+
+	.rate-bar-percent {
+		left: 0;
+		right: auto;
+	}
+}

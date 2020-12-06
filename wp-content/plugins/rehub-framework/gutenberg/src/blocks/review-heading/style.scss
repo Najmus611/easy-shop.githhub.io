@@ -1,0 +1,39 @@
+@import "general";
+
+.rh-review-heading {
+	flex-wrap: wrap;
+
+	@include breakpoints(xs) {
+		flex-wrap: nowrap;
+	}
+
+	&__position {
+		span {
+			line-height: .78;
+
+			&:after {
+				content: '.';
+			}
+		}
+	}
+
+	&__logo {
+		margin-top: 10px;
+		width: 100%;
+
+		@include breakpoints(xs) {
+			margin-top: 0;
+			width: auto;
+		}
+
+		img {
+			width: auto;
+			max-height: 60px;
+		}
+	}
+
+	&__logo-container {
+		max-height: 60px;
+		max-width: 150px;
+	}
+}

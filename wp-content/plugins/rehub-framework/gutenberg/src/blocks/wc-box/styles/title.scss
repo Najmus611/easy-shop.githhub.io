@@ -1,0 +1,14 @@
+@import "common";
+
+.wp-block .c-ws-box-title {
+	margin: 0 0 10px;
+
+	line-height: 20px;
+	font-size: 110%;
+	color: $dark;
+
+	@include breakpoints(s) {
+		font-size: 120%;
+		line-height: 28px;
+	}
+}

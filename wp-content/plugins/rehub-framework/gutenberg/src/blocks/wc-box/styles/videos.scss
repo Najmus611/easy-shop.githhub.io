@@ -1,0 +1,41 @@
+.c-ws-box-videos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	overflow: hidden;
+
+	&__item {
+		position: relative;
+		width: 23%;
+		max-height: 300px;
+		margin: 1%;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		text-align: center;
+
+		text-decoration: none;
+
+		&:before {
+			z-index: 2;
+			content: "\f144";
+			width: 30px;
+			height: 30px;
+			margin: -15px 0 0 -15px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+
+			font: {
+				family: 'rhicon';
+				size: 30px;
+			};
+			line-height: 30px;
+			color: $white;
+			opacity: 0.8;
+			text-align: center;
+		}
+	}
+}

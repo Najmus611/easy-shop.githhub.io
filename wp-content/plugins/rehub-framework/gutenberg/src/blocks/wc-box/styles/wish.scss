@@ -1,0 +1,23 @@
+@import "common";
+
+.c-ws-box-wish {
+	display: inline-block;
+	margin: 0 6px 0 0;
+	text-align: center;
+	cursor: pointer;
+
+	&:before {
+		display: inline-block;
+		content: "\f004";
+		color: $greyA;
+		font: {
+			size: 1em;
+			family: "rhicons";
+		};
+		line-height: 25px;
+	}
+
+	&:hover:before {
+		color: $darkRed;
+	}
+}

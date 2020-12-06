@@ -1,0 +1,16 @@
+@import "common";
+
+.wp-block .c-vs-heading {
+	display: block;
+	padding: 0 10px;
+
+	font: {
+		size: 15px;
+		weight: bold;
+	};
+	color: inherit;
+
+	@include breakpoints(s) {
+		font-size: 17px;
+	}
+}

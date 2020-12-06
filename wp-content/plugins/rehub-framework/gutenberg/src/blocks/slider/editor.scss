@@ -1,0 +1,37 @@
+@import "common";
+
+.rh-slider-item {
+	.rehub-image-upload-placeholder {
+		position: absolute;
+		top: 45px;
+		left: 45px;
+		width: calc(100% - 90px);
+		height: calc(100% - 90px);
+		background: {
+			repeat: no-repeat;
+			size: contain;
+			position: center;
+		};
+
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+
+	.rehub-image-upload-has-image .rehub-image-upload-remove {
+		position: absolute;
+		top: 15px;
+		right: 10px;
+		left: auto;
+		display: block;
+
+		svg {
+			width: auto;
+			height: 20px;
+			fill: $dark;
+		}
+	}
+}

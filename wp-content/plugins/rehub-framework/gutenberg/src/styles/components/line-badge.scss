@@ -1,0 +1,61 @@
+@import "../variables";
+
+.re-line-badge {
+	color: #fff;
+	padding: 5px 10px;
+	background: #77B21D;
+	text-shadow: 0 1px 0 #999;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 14px;
+	position: relative;
+	text-transform: uppercase;
+	display: inline-block;
+	z-index: 9;
+
+	&.badge_2 {
+		background: $brandYellow;
+	}
+
+	&.badge_3 {
+		background: $brandOrange;
+	}
+
+	&.badge_4 {
+		background: #D50000;
+	}
+
+	span:before {
+		content: "★";
+		margin-right: 4px;
+		font-size: 95%
+	}
+
+	span:after {
+		content: "★";
+		margin-left: 4px;
+		font-size: 95%
+	}
+
+	&.re-line-big-label {
+		padding: 8px 15px;
+		margin: 16px auto;
+		text-align: center;
+		clear: both;
+		font-size: 15px;
+
+		span:before {
+			margin-right: 8px;
+		}
+	}
+
+	&.re-line-small-label {
+		display: inline-block;
+		padding: 3px 6px;
+		margin: 0 5px 5px 0;
+		text-align: center;
+		white-space: nowrap;
+		font-size: 11px;
+		line-height: 11px;
+	}
+}

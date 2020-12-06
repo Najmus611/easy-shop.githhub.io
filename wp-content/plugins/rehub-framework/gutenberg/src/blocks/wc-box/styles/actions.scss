@@ -1,0 +1,12 @@
+@import "common";
+
+.c-ws-box-actions {
+	position: relative;
+	top: 6px;
+	right: 6px;
+	margin: 0 0 10px;
+
+	@include breakpoints(s) {
+		position: absolute;
+	}
+}

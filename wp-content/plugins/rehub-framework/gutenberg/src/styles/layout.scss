@@ -1,0 +1,39 @@
+.rh-container {
+	background: none transparent;
+	border: none;
+	box-shadow: none;
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 1200px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1141px) {
+	.rh-container {
+		width: 1080px;
+	}
+}
+
+@media (max-width: 1140px) and (min-width: 1024px) {
+	.rh-container {
+		width: 980px;
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.rh-container {
+		clear: both;
+		float: none;
+		margin: 0 auto;
+		width: 740px;
+	}
+}
+
+@media (max-width: 767px) {
+	.rh-container {
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+}

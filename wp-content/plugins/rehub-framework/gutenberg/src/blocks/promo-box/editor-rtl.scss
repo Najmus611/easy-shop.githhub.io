@@ -1,0 +1,13 @@
+@import "general";
+
+.rtl .wp-block-rehub-promo-box.wpsm_promobox {
+	.rehub_main_btn {
+		left: auto;
+		right: 25px;
+
+		@include breakpoints(xs) {
+			float: left;
+			margin: 8px 15px 15px 0;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+@import "common";
+
+.wp-block .c-offer-listing-score {
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 15px 0 0;
+
+	span {
+		display: block;
+		width: 35px;
+		height: 35px;
+		margin: 0 10px 10px 0;
+
+		background-color: $darkRed;
+		color: $white;
+		border-radius: 50%;
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 35px;
+		text-align: center;
+	}
+
+	.score--1, .score--2 {
+		background-color: #940000;
+	}
+	
+	.score--5, .score--6 {
+		background-color: #ffac00;
+	} 
+	
+	.score--7, .score--8 {
+		background-color: #9c0;
+	}
+
+	.score--9, .score--10 {
+		background-color: #390;
+	}
+}

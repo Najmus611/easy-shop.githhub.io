@@ -1,0 +1,112 @@
+@import "mixins";
+
+.rh-expired-notice {
+	display: inline-block;
+	background-color: #888885;
+	color: white;
+	font-size: 11px;
+	line-height: 18px;
+	height: 18px;
+	vertical-align: top;
+	padding: 0 4px;
+	margin-right: 7px;
+	margin-top: 1px;
+	text-transform: uppercase;
+	cursor: default;
+	float: left;
+}
+
+.re-icon-compare:before {
+	content: "\e92e";
+	display: inline-block;
+}
+
+.rh_listoffers > .border-grey-bottom:last-child {
+	border-bottom: none;
+}
+
+.rh_listcolumn_image {
+	min-width: 120px;
+	max-width: 120px;
+}
+
+.rh_list_mbl_im_left > .mobileblockdisplay .rh_listcolumn_image {
+	float: left;
+
+	@include breakpoints(s) {
+		float: none;
+	}
+}
+
+.rh_list_mbl_im_left > .mobileblockdisplay > div:not(.rh_listcolumn_image) {
+	width: auto;
+	min-width: 1px;
+	max-width: 10000px;
+	margin: 0 0 12px 130px;
+	text-align: left;
+	padding: 0;
+
+	@include breakpoints(s) {
+		margin: 0;
+		padding: 0 15px;
+	}
+}
+
+.listitem_column, .listitem_content_meta > div, .rh_listcolumn {
+	padding: 0 15px;
+}
+
+.rh_listcolumn_image img {
+	max-width: 90px;
+	width: auto;
+	max-height: 90px;
+}
+
+.rh_listcolumn_price {
+	min-width: 130px;
+	max-width: 130px;
+}
+
+.rh_listcolumn_btn {
+	min-width: 150px;
+	max-width: 150px;
+}
+
+.price_count {
+	border-radius: 4px;
+}
+
+.rehub_feat_block .priced_block {
+	clear: both;
+}
+
+.priced_block {
+	margin-bottom: 15px;
+}
+
+.rh_listcolumn_btn .priced_block .btn_offer_block {
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.priced_block .btn_offer_block {
+	background: none $darkRedSecond;
+	color: $white;
+	fill: $white;
+	border: none;
+	text-decoration: none;
+	outline: 0;
+	box-shadow: -1px 6px 19px rgba(222, 20, 20, 0.2);
+	border-radius: 4px;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+
+.reveal_enabled:not(.expired_coupon) .btn_offer_block:not(.coupon_btn),
+.woocommerce .products .reveal_enabled .woo_loop_btn:not(.coupon_btn) {
+	display: none !important;
+}

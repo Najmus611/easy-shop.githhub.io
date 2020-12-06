@@ -1,0 +1,11 @@
+@import "common";
+
+.wp-block .c-ws-box-image {
+	max-width: 110px;
+	grid-row: 1;
+	grid-column: 1;
+
+	@include breakpoints(s) {
+		grid-row: 1 / 4;
+	}
+}

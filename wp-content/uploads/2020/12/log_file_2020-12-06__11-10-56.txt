@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: ReCompare were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost
+Data file = D:\xampp\htdocs/wp-content/uploads/2020/12/demo-content-import-file_2020-12-06__11-10-56.xml
+Widget file = D:\xampp\htdocs/wp-content/uploads/2020/12/demo-widgets-import-file_2020-12-06__11-10-56.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "large_ade58f05-ddd1-4307-ac5e-713273db4f24" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "karma-drone-main.png" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "dji-mavic-pro-5-2-920x518" (Media)
+

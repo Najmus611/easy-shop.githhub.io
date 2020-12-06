@@ -1,0 +1,47 @@
+.wpsm-button.rehub_main_btn,
+.btn_offer_block {
+	background: none $darkRedSecond;
+	border: none;
+	border-radius: 4px;
+	box-shadow: -1px 6px 19px rgba(222, 20, 20, 0.2);
+	color: $white;
+	cursor: pointer;
+	display: inline-block;
+	fill: $white;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 17px;
+	outline: 0;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	text-transform: uppercase;
+	transition: all 0.4s ease 0s;
+	white-space: normal;
+
+	&:hover {
+		background: none $darkRedSecond;
+		box-shadow: -1px 6px 13px rgba(222, 20, 20, 0.4);
+		color: $white;
+	}
+}
+
+.priced_block {
+	.btn_offer_block {
+		font-size: 18px;
+		line-height: 1;
+		padding: 12px 40px;
+		text-transform: none;
+	}
+}
+
+.priced_block.priced_block--sm .btn_offer_block {
+	margin: 0 auto;
+	display: block;
+	font-size: 17px;
+	line-height: 20px;
+	padding: 13px 20px;
+	text-transform: uppercase;
+}

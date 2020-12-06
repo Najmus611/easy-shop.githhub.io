@@ -1,0 +1,7 @@
+@import "general";
+
+.rtl .wp-block .c-vs-header {
+	@include breakpoints(s) {
+		text-align: right;
+	}
+}

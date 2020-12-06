@@ -1,0 +1,12 @@
+@import "general";
+
+.rtl {
+	.rehub_offer_coupon i.fas,
+	.rehub_offer_coupon i.far,
+	.rehub_offer_coupon i.fal,
+	.rehub_offer_coupon i.rhicon {
+		right: auto;
+		left: -12px;
+		transform: rotate(0deg) !important;
+	}
+}

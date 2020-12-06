@@ -1,0 +1,16 @@
+@import "common";
+
+.wp-block .c-vs-subheading {
+	display: block;
+	padding: 0 10px;
+
+	opacity: .5;
+	font: {
+		size: 12px;
+		weight: normal;
+	};
+
+	@include breakpoints(s) {
+		font-size: 13px;
+	}
+}

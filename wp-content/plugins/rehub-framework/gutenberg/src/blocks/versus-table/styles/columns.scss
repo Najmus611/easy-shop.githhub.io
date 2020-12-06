@@ -1,0 +1,30 @@
+.wp-block {
+	.c-vs-col-1, .c-vs-col-2, .c-vs-col-3, .c-vs-circle-col {
+		display: table-cell;
+		width: 273px;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	.c-vs-circle-col {
+		width: 40px;
+	}
+
+	.c-vs-circle {
+		display: block;
+		height: 40px;
+		width: 40px;
+		margin: 0 10px;
+
+		font: {
+			size: 16px;
+			weight: bold;
+			family: Arial, sans-serif;
+		};
+		color: $dark;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 20px;
+		background: $greyE9;
+	}
+}

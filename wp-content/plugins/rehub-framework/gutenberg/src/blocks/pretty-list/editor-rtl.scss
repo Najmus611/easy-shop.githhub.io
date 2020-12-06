@@ -1,0 +1,31 @@
+@import "general";
+
+.rtl .wpsm_pretty_list {
+	li {
+		padding: 10px 28px 10px 20px;
+
+		&:before {
+			content: "\f104";
+			left: auto;
+			right: 0;
+		}
+	}
+}
+
+.rtl .wpsm_checklist {
+	li:before {
+		content: "\f00c";
+	}
+}
+
+.rtl .wpsm_starlist {
+	li:before {
+		content: "\e9d9";
+	}
+}
+
+.rtl .wpsm_bulletlist {
+	li:before {
+		content: "\f192";
+	}
+}
